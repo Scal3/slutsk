@@ -4,6 +4,10 @@
     max-width: 400px;
 }
 
+.news-item:last-of-type {
+    margin-bottom: 0;
+}
+
 .news-item__image {
     object-fit: cover;
     object-position: center;
@@ -37,7 +41,7 @@
     margin: 0;
     font-size: 13px;
     margin-bottom: 10px;
-    color: rgb(189, 189, 189);
+    color: #BDBDBD;
 }
 
 .news-item__title {

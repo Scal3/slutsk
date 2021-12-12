@@ -10,14 +10,13 @@ function Navigation({isBurgerMenuBtnActive, changeButtonStateFalse}) {
           <button className="navigation__close-btn" onClick={changeButtonStateFalse}></button>
 
           <div className="navigation__link-list">
-            <NavLink to="/" className="navigation__link">Главная</NavLink>
-            <NavLink to="/movies" className="navigation__link" activeClassName="navigation__link_active">Фильмы</NavLink>
-            <NavLink to="/saved-movies" className="navigation__link" activeClassName="navigation__link_active">Сохранённые фильмы</NavLink>
+            <NavLink to="/" className="navigation__link" activeClassName="navigation__link_active">Новости города</NavLink>
+            <NavLink to="/food" className="navigation__link" activeClassName="navigation__link_active">Где покушать</NavLink>
+            <NavLink to="/entertainment" className="navigation__link" activeClassName="navigation__link_active">Куда сходить</NavLink>
+            <NavLink to="/study" className="navigation__link" activeClassName="navigation__link_active">Учёба в Слуцке</NavLink>
+            <NavLink to="/about-city" className="navigation__link" activeClassName="navigation__link_active">История города</NavLink>
           </div>
 
-          <NavLink to="/profile" className="navigation__profile-link">
-            <button className="navigation__profile-link-img"></button>
-          </NavLink>
         </div>
 
       </nav>

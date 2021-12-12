@@ -19,7 +19,7 @@ function Header() {
         <header className="header">
           <div className="header__ears">
             <NavLink to="/" className="header__desctop-btn-link">
-              <h2 className="header__logo-name">Slutsk</h2>
+              <h2 className="header__logo-name">SLk</h2>
             </NavLink>
   
             <div className="header__btn" onClick={changeButtonStateTrue}>

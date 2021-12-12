@@ -1,5 +1,5 @@
 .header__ears {
-    border-bottom: 1px solid black;
+    box-shadow: 0 0 5px #BDBDBD;
     padding: 18px 14px 18px 14px;
     display: flex;
     justify-content: space-between;
@@ -19,6 +19,7 @@
     font-size: 25px;
     line-height: 20px;
     font-weight: normal;
+    border-radius: 10px;
 }
 
 .header__logo:hover {

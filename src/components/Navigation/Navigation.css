@@ -16,6 +16,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid red;
+}
+
+.navigation__link-list {
+    /* border: 1px solid red; */
 }
 
 .navigation__link-list {
@@ -32,7 +37,7 @@
     line-height: 22px;
     text-decoration: none;
     color: black;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
 .navigation__link:hover {
@@ -40,7 +45,8 @@
 }
 
 .navigation__link_active {
-    border-bottom: 1px solid black;
+    background-color: yellow;
+    border-radius: 5px;
 }
 
 .navigation__close-btn {
