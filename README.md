@@ -9,6 +9,7 @@
 
 ## Стек
 * react
+* css
 * nodeJS
 * mongoDB
 
